@@ -1,216 +1,58 @@
-
-
 .calculator-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    background-color: gray;
     justify-content: center;
     align-items: center;
-    height: 1000px;
-    margin-left: 860px;
-    margin-right: 860px;
-    margin-top: 140px;
+    background-color: rgb(0, 0, 84);
+    height: 880px;
+    margin-left: 1000px;
+    margin-right: 1000px;
+    margin-top: 200px;
     border-radius: 10px;
-    
 }
 
-.display {
+#display {
     display: flex;
+    background-color: white;
+    height: 150px;
+    width: 400px;
+    margin-top: 20px;
+    font-size: 70px;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 200px;
-    margin-top: 50px;
-    background-color: rgb(233, 228, 228);
+    border-radius: 10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
 .button-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 800px;
-    height: 600px;
-    margin-top: 150px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
-.divide button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
+.button-container button {
+    width: 136px;
+    height: 120px;
+    font-size: 50px;
     font-width: bold;
-    background-color: rgb(91, 23, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    border-radius: 10px;
+    background-color: rgb(28, 28, 28);
 }
 
-.seven button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-
+button.cancel {
+    margin-left: 407px;
+    background-color: gray;
 }
 
-.eight button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
+button.op {
+    background-color: orangered;
 }
 
-.nine button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.subtract button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(91, 23, 2);
-    color: white;
-    border-radius: 10px;
-}
-
-
-
-.multiply button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(91, 23, 2);
-    color: white;
-    border-radius: 10px;
-}
-
-
-
-.four button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.five button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.six button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.add button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(91, 23, 2);
-    color: white;
-    border-radius: 10px;
-}
-
-
-.decimal button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(91, 23, 2);
-    color: white;
-    border-radius: 10px;
-}
-
-.one button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.two button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.three button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border-radius: 10px;
-}
-
-.equals button {
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(190, 79, 45);
-    color: white;
-    border-radius: 10px;
-}
-
-
-
-.zero button {
-    height: 110px;
-    width: 480px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    margin-left: 160px;
-    border-radius: 10px;
-}
-
-.c button{
-    height: 110px;
-    width: 160px;
-    font-size: 40px;
-    font-width: bold;
-    background-color: rgb(91, 23, 2);
-    color: white;
-    border-radius: 10px;
+button.calculate {
+    background-color: goldenrod;
 }
